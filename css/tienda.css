@@ -1,0 +1,101 @@
+/*Alberto Méndez Conrado*/
+
+
+/*articulos de la tienda*/
+
+.seccion-principal{
+    position: relative;
+    margin: 70px 0%;
+    display: flow-root;
+}
+
+.articulo{
+    float: left;
+    width: 20%;
+    margin-left: 4%;
+}
+
+.imagen-articulo{
+    height: 250px;
+    margin-left: 20%;
+}
+
+.resaltado{
+    color: rgb(49, 36, 30);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: 900;
+    font-style: bold;
+    text-transform: uppercase;
+    margin-left: 0px;
+}
+
+.subtitulo{
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+
+/*boton de cada articulo*/
+
+.boton{
+    position: relative;
+    width: 60%;
+    height: 40px;
+    
+    overflow: hidden;
+
+    margin-top: 15px;
+    padding-top: 3px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    border: 5px solid black;
+    color: white;
+    background-color: black;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+/*botones para cambiar de pagina*/
+
+.botones-paginas{
+    position: absolute;
+    bottom: -70px;
+    right: 2%;
+    display: flow-root;
+    width: 15%;
+}
+
+
+.boton-pagina{
+    position: relative;
+    text-align: center;
+    float: left;
+    padding-top: 3px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 500px;
+    overflow: hidden;
+
+    margin-left: 10%;
+
+    width: 16%;
+    height: 45px;
+}
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html><!--Alberto Méndez Conrado-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/cabecera.css">
+    <link rel="stylesheet" href="../css/comun_titulo.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="cabecera">
+        <div class="contenedorTitulo">
+            <a href="../Index.html">
+                <img src="../img/Logo.png" alt="Logo de la pagina">
+                <h2 class="titulo-logo">ALLSHOES</h2>
+            </a>
+        </div>
+        <ul class="menu-cabecera">
+            <li class="menu-elemento"><a href="../Index.html">INICIO</a></li>
+            <li class="menu-elemento"><a href="sobreNosotros.html">SOBRE NOSOTROS</a></li>
+            <li class="menu-elemento"><a href="cursos.html">CURSOS</a></li>
+            <li class="menu-elemento"><a href="tienda.html">TIENDA</a></li>
+            <li class="menu-elemento"><a href="#" id="seleccionado">CONTACTO</a></li>
+        </ul>
+    </div>
+    <h1>Contacto</h1>
+    <div class="seccion-principal">
+        <div class="seccion-texto">
+            <h2 class="resaltado titulo">¿Tienes alguna duda?</h2>
+            <p class="resaltado subtitulo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis.</p>
+            <p class="texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nam repellendus sit unde voluptatem! Quis esse totam doloribus dolor enim officiis ad tenetur sapiente at? Cupiditate vitae, facilis voluptatem dolore consequatur quia nihil, voluptates, dolor quae alias minus neque qui?
+            </p>
+            <h3 class="resaltado apartado">E-mail:</h3>
+            <p class="resaltado correo">info@allshoes.es</p>
+            <h3 class="resaltado apartado">Redes sociales:</h3>
+
+            <div class="redes-sociales">
+                <a href="#">
+                    <img class="imagen-principal" src="../img/Logo.png" alt="">
+                </a>
+                <a href="#">
+                    <img class="icono" id="telegram" src="../img/telegram-icon.png" alt="">
+                </a>
+                <a href="#">
+                    <img class="icono" id="whatsapp" src="../img/whatsapp-logo.png" alt="">
+                </a>
+                <a href="#">
+                    <img class="icono" id="twitter" src="../img/twitter-icon.png" alt="">
+                </a>
+                <a href="#">
+                <img class="icono" id="instagram" src="../img/instagram-logo.png" alt="">
+                </a>
+                <a href="#">
+                    <img class="icono" id="facebook" src="../img/facebook-icon.png" alt="">
+                </a>
+            </div>
+        </div>
+        <form name="formulario" action="#" method="get">
+            <fieldset>
+                <input type="text" pattern="[a-zA-Z]{2,}" placeholder="NOMBRE" id="nombre" name="nombre" required></input>
+
+                <input type="text" pattern="[a-z0-9]+@[a-z0-9]+\.[a-z]{2,}" placeholder="Correo (CORREO@EMAIL.COM)" id="correo" name="correo" required></input>
+
+                <input type="text" pattern="\d{9,}" placeholder="TELÉFONO (+34 XXX XXX XXX)" id="telefono" name="telefono" required></input>
+
+                <div class="contenedor-tema">
+                    <select name="tema" id="tema">
+                        <option value="" selected>TEMA</option>
+                        <option value="duda">DUDA</option>
+                        <option value="queja">QUEJA</option>
+                        <option value="otro">OTRO</option>
+                    </select>
+                </div>
+                
+                <textarea name="mensaje" id="mensaje" placeholder="MENSAJE"></textarea>
+                <div class="condiciones">
+                    <input type="checkbox" name="condiciones" id="condiciones" required> Aceptar <a href="#">condiciones</a></input>
+                </div>
+
+                <div class="contenedor-boton">
+                    <button class="boton" name="enviar" type="submit">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

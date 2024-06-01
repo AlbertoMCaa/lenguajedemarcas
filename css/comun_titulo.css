@@ -1,0 +1,19 @@
+/*Alberto Méndez Conrado*/
+
+h1{
+    position: relative;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1::after{
+    position: absolute;
+    content: "";
+    border-top: 2px solid rgb(126, 118, 113);
+    bottom: -20px;
+    left: 0%;
+    right: 0%;
+}

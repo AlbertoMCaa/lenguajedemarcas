@@ -1,0 +1,78 @@
+/*Alberto Méndez Conrado*/
+
+.seccion-principal{
+    margin-bottom: 20px;
+}
+
+.imagen-principal{
+    position: relative;
+    width: 96%;
+    height: 435px;
+    background-image: url(../img/Carroussel-1.webp);
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    background-position: 0px -330px;
+    margin: 40px 2%;
+}
+
+.imagen-principal h1{
+    position: absolute;
+    top: 60px;
+    left: 1%;
+    width: 100px;
+    display: inline;
+    color: white;
+    font-size: 50px;
+}
+
+
+
+.contenedor-articulo{
+    display: flow-root;
+    margin: -6px 2%;
+}
+
+.contenido-articulo{
+    float: left;
+    margin-top: 30px;
+    width: 40%; 
+}
+
+.texto{
+    font-size: 24px;
+    text-align: justify;
+}
+
+
+.contenedor-imagenes img{
+    float: left;
+    width: 18%;
+    margin-left: 2%;
+}
+
+
+.boton{
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200%;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 2%;
+    width: 55%;
+    height: 40px;
+
+    transition: all ease-in-out 0.5s;
+}
+
+
+.boton:hover, .boton:focus{
+    background-color:red;
+    color: black;
+    width: 70%;
+}
+
+

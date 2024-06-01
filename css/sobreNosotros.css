@@ -1,0 +1,106 @@
+/*Alberto Méndez Conrado*/
+
+/* Estilo del texto y la imagen */
+
+.seccion-principal{
+    margin-left: 3%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flow-root;
+}
+
+
+.contenedor-imagen{
+    float: left;
+    height: 500px;
+    width: 35%;
+    background-image: url(../img/Tienda-1.webp);
+    background-size: 900px 500px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.contenido-articulo{
+    margin-top: 30px;
+}
+
+.contenedor-texto{
+    margin-left: 38%;
+    margin-right: 9%;
+}
+
+
+.texto-resaltado{
+    color: rgb(49, 36, 30);
+}
+
+.titulo-articulo{
+    font-size: 30px;
+    font-weight: 900;
+    font-style: bold;
+    text-transform: uppercase;
+}
+
+.subtitulo{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.contenedor-texto, .contenedor-logo{
+    display: flow-root;
+}
+
+.contenedor-logo>*{
+    float: left;
+}
+
+.contenedor-logo{
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.resaltar-naranja{
+    color: rgb(230, 114, 13);
+}
+
+
+.contenedor-logo img{
+    height: 50px;
+}
+
+.contenedor-logo p{
+    font-size: 40px;
+    font-weight: 550;
+    margin-top: 7px;
+    margin-left: 1.5%;
+}
+
+.texto-articulo{
+    margin-top: 14px;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(74, 62, 57);
+}
+
+.contenedor-texto{
+    text-align: justify;
+}
+
+/* Estilo de los logos */
+
+.logos-redes{
+    margin-left: 37.4%;
+}
+
+.logos-redes a{
+    text-decoration: none;
+}
+
+.logo-red{
+    height: 45px;
+    margin-left: 1%;
+    margin-top: 30px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    border-radius: 50px;
+}

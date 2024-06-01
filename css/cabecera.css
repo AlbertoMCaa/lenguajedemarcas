@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+
+}
+
+
+.cabecera{
+    position: relative;
+    background-color: rgb(43, 43, 43);
+    height: 65px;
+    padding-top: 5px;
+}
+
+/*Logo con el titulo*/
+
+.cabecera> .contenedorTitulo{
+    float: left;
+}
+
+.contenedorTitulo{
+    margin-left: 3%;
+}
+
+.contenedorTitulo>a{
+    text-decoration: none;
+    display: flow-root;
+}
+
+.contenedorTitulo>a>*{
+    float: left;
+}
+
+.titulo-logo{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.titulo span{
+    color: rgb(197, 97, 9);
+}
+.contenedorTitulo img{
+    height: 50px;
+}
+
+/*Links en las lita de las otras páginas*/
+
+.menu-cabecera{
+    display: flow-root;
+    position: absolute;
+    top: 3px;
+    right: 0%;
+    width: 60%;
+    margin-top: 15px;
+}
+
+.menu-cabecera .menu-elemento{
+    list-style: none;
+    float: left;
+    font-size: 25px;
+    margin-left: 4%;
+}
+
+
+
+
+/*Linea debajo de la cabecera*/
+
+
+.cabecera::after {
+    border-top: 2px solid rgb(126, 118, 113);
+    content:"";
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: -20px;
+}
+
+/*Efecto del hover*/
+
+.menu-elemento a,.menu-elemento a:visited{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    transition: all 0.75s ease-in-out;
+}
+
+#seleccionado{
+    color: rgb(170, 30, 212);
+}
+
+
+.menu-elemento a::after,.menu-elemento a:visited::after{
+    content: "";
+    border-top: 3.5px solid white;
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    right: 100%;
+    top: 100%;
+    transition: all 0.5s ease-in;
+}
+
+
+.menu-elemento a:hover, .menu-elemento a:focus{
+    color: rgb(170, 30, 212);
+}
+
+.menu-elemento a:hover::after, .menu-elemento a:focus::after, #seleccionado::after{
+    right: 0;
+    border-color: rgb(170, 30, 212);
+}
